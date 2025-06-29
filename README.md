@@ -1,5 +1,7 @@
 This repository implements multimodal data fusion methods for analyzing complex biomedical data. Our approach combines multiple data modalities including functional MRI (fMRI) as functional connectivity matrices, morphometric features, and lipid intensity measurements derived from the coordinates of selected brain regions and T1-weighted signal intensity were integrated to improve diagnostic accuracy and schizophrenia biomarkers analysis.
 
+🖼️ [Poster Page](https://github.com/utoprey/Multimodal-neuroimaging-fusion-models/blob/main/figures/Conference_poster.png)
+
 ## fMRI COBRE dataset 127 subjects results for NestedCV (10 folds)
 |      | F1 Score | Accuracy | ROC-AUC |
 |------|:--------:|:--------:|:-------:|
@@ -60,6 +62,10 @@ Chord plots showing correlations between:
 - fMRI signal patterns and morphometric features
 - Lipid intensity levels and brain connectivity
 - Cross-modal biomarker relationships
+
+## Outcomes
+Confirmed regional biomarkers of schizophrenia have been identified, including the caudate, thalamus, putamen, and pallidum. The cerebellum and supramarginal gyrus are considered potential biomarkers. A total of 149 significant lipids (p < 0.05) were identified as correlating with fMRI data.
+
 
 
 ## Data source 
