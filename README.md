@@ -16,6 +16,7 @@ This repository implements multimodal data fusion methods for analyzing complex 
 |--------|:-------------------:|:-------------:|:---:|:-------:|
 | EF fMRI | 0.70 ± 0.12 | 0.66 ± 0.11 | 0.71 ± 0.10 | **0.75 ± 0.11**|
 | EF Morphometry | 0.53 ± 0.16 | 0.55 ± 0.11 | **0.62 ± 0.12** | 0.53 ± 0.12 |
+| EF lipids | **0.62 ± 0.08** | 0.63 ± 0.14 | 0.60 ± 0.10 | 0.62 ± 0.13 |
 | EF fMRI+sMRI | 0.66 ± 0.16 | 0.65 ± 0.15 | 0.58 ± 0.19 | 0.65 ± 0.10 |
 | LF fMRI+sMRI | 0.70 ± 0.12 | 0.66 ± 0.17 | 0.67 ± 0.13 | 0.56 ± 0.18 |
 | EF fMRI+Lipids | 0.71 ± 0.09 | 0.72 ± 0.11 | 0.72 ± 0.11 | 0.73 ± 0.09 |
@@ -31,8 +32,8 @@ This analysis implements a comprehensive lipidomic correlation framework to iden
 
 
 <div align="center">
-  <img src="https://github.com/utoprey/Multimodal-fusion-models/blob/main/figures/fmrilipids_analysis.png" width="45%" alt="Analysis pipeline">
-  <img src="https://github.com/utoprey/Multimodal-fusion-models/blob/main/figures/KDE_COBRE.png" width="45%" alt="KDE plot for COBRE">
+  <img src="https://github.com/utoprey/Multimodal-neuroimaging-fusion-models/blob/main/figures/fmrilipids_analysis.png" width="45%" alt="Analysis pipeline">
+  <img src="https://github.com/utoprey/Multimodal-neuroimaging-fusion-models/blob/main/figures/KDE_COBRE.png" width="45%" alt="KDE plot for COBRE">
 </div>
 
 
@@ -50,8 +51,8 @@ Our analysis includes interactive chord diagrams that visualize:
 ### Inter-Modal Correlations
 
 <div align="center">
-  <img src="https://github.com/utoprey/Multimodal-fusion-models/blob/main/figures/poster_COBRE_HC_chord_new.png" width="45%" alt="Healthy Control Chord Plot">
-  <img src="https://github.com/utoprey/Multimodal-fusion-models/blob/main/figures/poster_COBRE_SZ_chord_new.png" width="45%" alt="Schizophrenia Chord Plot">
+  <img src="https://github.com/utoprey/Multimodal-neuroimaging-fusion-models/blob/main/figures/poster_COBRE_HC_chord_new.png" width="45%" alt="Healthy Control Chord Plot">
+  <img src="https://github.com/utoprey/Multimodal-neuroimaging-fusion-models/blob/main/figures/poster_COBRE_SZ_chord_new.png" width="45%" alt="Schizophrenia Chord Plot">
 </div>
 Left: Healthy control group connectivity patterns | Right: Schizophrenia group connectivity patterns
 
@@ -59,3 +60,9 @@ Chord plots showing correlations between:
 - fMRI signal patterns and morphometric features
 - Lipid intensity levels and brain connectivity
 - Cross-modal biomarker relationships
+
+
+## Data source 
+[fMRI](https://fcon_1000.projects.nitrc.org/indi/retro/cobre.html) 
+Morphometry features were obtained via FreeSurfer
+[Lipids](https://pubmed.ncbi.nlm.nih.gov/38796479/)
