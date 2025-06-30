@@ -2,7 +2,7 @@ This repository implements multimodal data fusion methods for analyzing complex 
 
 🖼️ [Poster Page](https://github.com/utoprey/Multimodal-neuroimaging-fusion-models/blob/main/figures/Conference_poster.png)
 
-## fMRI COBRE dataset 127 subjects results for NestedCV (10 folds)
+## fMRI COBRE dataset results for NestedCV (10 folds)
 |      | F1 Score | Accuracy | ROC-AUC |
 |------|:--------:|:--------:|:-------:|
 | Logistic Regression |  0.69 ± 0.11       |   0.69 ± 0.08       |  0.71 ± 0.10    |
@@ -11,7 +11,7 @@ This repository implements multimodal data fusion methods for analyzing complex 
 | XGBoost |   0.73 ± 0.09       |   0.76 ± 0.08       |   0.74 ± 0.09      |
 
 
-### fMRI & sMRI & Lipid Intensity - 75 Regions COBRE 123 Subjects
+### fMRI & sMRI & Lipid Intensity 
 **F1-macro scores for NestedCV (10 folds)**
 
 | Method | Logistic Regression | Random Forest | SVM | XGBoost |
